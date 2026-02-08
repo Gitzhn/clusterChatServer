@@ -4,7 +4,9 @@
 
 ## nginx安装
 wget http://nginx.org/download/nginx-1.12.2.tar.gz
+
 tar -axvf nginx-1.12.2.tar.gz
+
 cd nginx-1.12.2
 sudo apt update
 sudo apt install -y libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev
