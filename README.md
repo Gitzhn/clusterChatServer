@@ -32,3 +32,6 @@ sudo /usr/local/nginx/sbin/nginx
 
 sudo /usr/local/nginx/sbin/nginx -s stop
 
+# 安装hiredis，用于发布-订阅的客户端编程
+
+git clone https://github.com/redis/hiredis
