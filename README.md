@@ -21,14 +21,14 @@ cd /usr/local/nginx/conf
 
 sudo vim nginx.conf
 
-# 按照图片内容添加负载均衡配置
+#### 按照图片内容添加负载均衡配置
 <img width="1165" height="718" alt="image" src="https://github.com/user-attachments/assets/51a322c6-aa85-43f1-a09c-0afffdc1108a" />
 
-\#启动nginx
+启动nginx
 
 sudo /usr/local/nginx/sbin/nginx
 
-\# 结束
+结束
 
 sudo /usr/local/nginx/sbin/nginx -s stop
 
