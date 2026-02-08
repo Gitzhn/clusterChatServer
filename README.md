@@ -1,7 +1,7 @@
 # clusterChatServer
 基于muduo库实现，可以工作在nginx tcp负责均衡环境中的集群聊天服务器和客户端源码
 
-
+# 环境准备
 ## nginx安装
 wget http://nginx.org/download/nginx-1.12.2.tar.gz
 
@@ -32,7 +32,7 @@ sudo /usr/local/nginx/sbin/nginx
 
 sudo /usr/local/nginx/sbin/nginx -s stop
 
-# 安装hiredis，用于发布-订阅的客户端编程
+## 安装hiredis，用于发布-订阅的客户端编程
 
 git clone https://github.com/redis/hiredis
 
@@ -44,7 +44,7 @@ sudo make install
 
 sudo ldconfig /usr/local/lib
 
-# 安装mysql，注意修改db.cpp中的数据库信息
+## 安装mysql，注意修改db.cpp中的数据库信息
 
 mysql包含下图5张表(自己建一下)
 
@@ -70,4 +70,4 @@ User: 存储用户信息
 
 <img width="1202" height="312" alt="image" src="https://github.com/user-attachments/assets/a2260aa2-abd9-400c-9de1-78cb84145235" />
 
-# 剩下一些编译运行C++代码的配置自己配置
+## 剩下一些编译运行C++代码的配置自己配置
