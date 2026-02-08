@@ -1,5 +1,5 @@
 # clusterChatServer
-基于muduo库实现，可以工作在nginx tcp负责均衡环境中的集群聊天服务器和客户端源码
+基于muduo库实现，利用nginx进行负载均衡的集群聊天服务器和客户端的源码。
 
 # 环境准备
 ## nginx安装
