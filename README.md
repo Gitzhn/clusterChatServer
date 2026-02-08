@@ -46,7 +46,7 @@ sudo ldconfig /usr/local/lib
 
 # 安装mysql，注意修改db.cpp中的数据库信息
 
-包含下图5张表
+mysql包含下图5张表(自己建一下)
 
 <img width="319" height="285" alt="image" src="https://github.com/user-attachments/assets/cdbfd838-59a5-41e4-9349-8da0d7fea3a8" />
 
