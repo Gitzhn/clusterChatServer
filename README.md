@@ -35,3 +35,11 @@ sudo /usr/local/nginx/sbin/nginx -s stop
 # 安装hiredis，用于发布-订阅的客户端编程
 
 git clone https://github.com/redis/hiredis
+
+cd hiredis
+
+make
+
+sudo make install
+
+sudo ldconfig /usr/local/lib
