@@ -69,3 +69,5 @@ OfflineMessage: 存储离线消息
 User: 存储用户信息
 
 <img width="1202" height="312" alt="image" src="https://github.com/user-attachments/assets/a2260aa2-abd9-400c-9de1-78cb84145235" />
+
+# 剩下一些编译运行C++代码的配置自己配置
